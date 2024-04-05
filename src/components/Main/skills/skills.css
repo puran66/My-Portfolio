@@ -1,0 +1,200 @@
+#skills {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-block: 5rem;
+}
+
+.skills-container {
+  width: 80%;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+}
+
+#skills h2 {
+  width: fit-content;
+  font-size: 3rem;
+  border-bottom: 2px solid #ffef5c;
+}
+
+.skill h5 {
+  font-size: 1.5rem;
+}
+
+.skill-title {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.proccess-box {
+  width: 100%;
+  background: #daf6ff;
+  height: 1rem;
+  border-radius: 0.6rem
+}
+
+.proccess-bar {
+  height: 100%;
+  background: #ffef5c;
+  border-top-left-radius: 0.6rem;
+  border-bottom-left-radius: 0.6rem;
+}
+
+.skill {
+  position: relative;
+}
+
+#HTML {
+  width: 80%;
+}
+
+#CSS3 {
+  width: 75%;
+}
+
+#Bootstrap {
+  width: 70%;
+}
+
+#Tailwind {
+  width: 75%;
+}
+
+#JavaScript {
+  width: 75%;
+}
+
+#ReactJs {
+  width: 85%;
+}
+
+#NodeJS {
+  width: 85%;
+}
+
+#MongoDB {
+  width: 70%;
+}
+
+#ExpressJS {
+  width: 80%;
+}
+
+#progress-70 {
+  position: absolute;
+  right: 11rem;
+  top: 10px;
+}
+
+#progress-75 {
+  position: absolute;
+  right: 9rem;
+  top: 10px;
+}
+
+#progress-80 {
+  position: absolute;
+  right: 7rem;
+  top: 10px;
+}
+
+#progress-85 {
+  position: absolute;
+  right: 5rem;
+  top: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  #progress-70 {
+    position: absolute;
+    right: 8rem;
+    top: 10px;
+  }
+
+  #progress-75 {
+    position: absolute;
+    right: 6rem;
+    top: 10px;
+  }
+
+  #progress-80 {
+    position: absolute;
+    right: 5rem;
+    top: 10px;
+  }
+
+  #progress-85 {
+    position: absolute;
+    right: 3rem;
+    top: 10px;
+  }
+}
+
+
+@media screen and (max-width: 970px) {
+  #skills {
+    align-items: center;
+  }
+
+  .skills-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  #progress-70 {
+    position: absolute;
+    right: 4rem;
+    top: 10px;
+  }
+
+  #progress-75 {
+    position: absolute;
+    right: 3rem;
+    top: 10px;
+  }
+
+  #progress-80 {
+    position: absolute;
+    right: 2rem;
+    top: 10px;
+  }
+
+  #progress-85 {
+    position: absolute;
+    right: 1rem;
+    top: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .skills-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #skills h2 {
+    font-size: 2.5rem;
+  }
+
+  .skill h5 {
+    font-size: 1rem;
+  }
+
+  #progress-70,
+  #progress-75,
+  #progress-80,
+  #progress-85 {
+    top: 0px;
+  }
+  #skills {
+    margin-top: 1rem;
+  }
+}

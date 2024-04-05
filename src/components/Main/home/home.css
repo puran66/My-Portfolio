@@ -1,0 +1,163 @@
+.info {
+  width: 100%;
+  display: flex;
+}
+
+
+.profile-img {
+  width: 50%;
+  padding-left: 10rem;
+  height: 70vh;
+}
+
+.info-contain {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.orignalName {
+  color: #ffef5c;
+}
+
+.info-contain h4 {
+  font-size: 2.6rem
+}
+
+.info-contain .name {
+  font-size: 5rem;
+}
+
+.info-contain h3 {
+  font-size: 3rem;
+  display: flex;
+  gap: 5px;
+}
+
+.cv a {
+  color: black;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .profile-img {
+    width: 50%;
+    padding-left: 3rem;
+  }
+
+
+}
+
+@media screen and (max-width: 970px) {
+  .profile-img {
+    width: 50%;
+    padding-left: 3rem;
+  }
+
+  .info-contain h4 {
+    font-size: 1.8rem
+  }
+
+  .info-contain .name {
+    font-size: 3.5rem;
+  }
+
+  .info-contain h3 {
+    font-size: 2rem;
+  }
+
+  .info-contain p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .profile-img {
+    width: 50%;
+  }
+
+  .info-contain h4 {
+    font-size: 2.5rem
+  }
+
+  .info-contain .name {
+    font-size: 3.5rem;
+  }
+
+  .info-contain h3 {
+    font-size: 1.7rem;
+  }
+
+  .info-contain p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .profile-img {
+    width: 100%;
+    padding-left: 2rem;
+    height: 50vh;
+  }
+
+  .info-contain p {
+    text-align: center;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .info-contain {
+    width: 100%;
+    padding: 2rem;
+    align-items: center;
+  }
+
+  .info-contain h4 {
+    font-size: 1.8rem
+  }
+
+  .info-contain .name {
+    font-size: 3.5rem;
+  }
+
+  .info-contain h3 {
+    font-size: 2rem;
+  }
+
+  .info-contain p {
+    font-size: 0.9rem;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .profile-img {
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .info-contain {
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .info-contain h4 {
+    font-size: 1.2rem
+  }
+
+  .info-contain .name {
+    font-size: 3rem;
+  }
+
+  .info-contain h3 {
+    font-size: 1.3rem;
+  }
+
+  .info-contain p {
+    font-size: 0.7rem;
+  }
+}

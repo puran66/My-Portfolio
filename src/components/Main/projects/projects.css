@@ -1,0 +1,129 @@
+#projects {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-top: 5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#projects h1 {
+  font-size: 3rem;
+  border-bottom: 3px solid #ffef5c;
+}
+
+.projects-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project img {
+  width: 20%;
+  height: 6rem;
+  border: 1px solid #242424;
+  border-radius: 5px;
+}
+
+.projectDescription {
+  width: 80%;
+}
+
+.projectDescription p {
+  font-weight: 300;
+  padding: 0.5rem;
+}
+
+.projectDescription a {
+  color: white;
+  transition: 0.3s;
+}
+
+
+
+.projectDescription i {
+  font-size: 1.2rem;
+}
+
+
+.project {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  transition: 0.3s;
+}
+
+.project:hover {
+  background: #3d99be;
+  color: black;
+  border-radius: 0.5rem;
+
+  a {
+    color: black;
+  }
+
+  i {
+    color: black;
+  }
+}
+
+
+
+@media screen and (max-width: 970px) {
+  .projectBtn {
+    font-size: 0.8rem;
+  }
+
+  #projects {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #projects {
+    margin-bottom: 5rem;
+    width: 80%;
+    height: auto;
+  }
+
+  .projects-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .projectBtn {
+    width: 8rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #projects {
+    width: 90%;
+  }
+
+  #projects h1 {
+    font-size: 2.5rem;
+  }
+
+  .project img {
+    height: 4rem;
+  }
+
+  .projectDescription a {
+    font-size: 0.8rem;
+  }
+
+  .projectDescription p {
+    font-size: 0.8rem;
+  }
+
+  .projectBtn {
+    width: 6rem;
+    height: 1.5rem;
+    font-size: 0.6rem;
+  }
+}
