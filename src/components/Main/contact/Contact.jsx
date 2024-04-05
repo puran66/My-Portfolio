@@ -23,7 +23,7 @@ const Contact = () => {
 
         // console.log(added.status === 200 || added.status == "201");
 
-        if (added.status === 200 || added.status == "201") {
+        if (added.status === 200 || added.status === "201") {
           toast.success("Message sent successfully!");
 
           name.current.value = "";
@@ -65,7 +65,7 @@ const Contact = () => {
               </a>
             </div>
             <div className="address">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14878.652216082863!2d72.86502230392603!3d21.205540137811386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f7550821b4f%3A0x49a1044dd9ca098e!2sPunagam%2C%20Varachha%2C%20Surat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1712055572208!5m2!1sen!2sin" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14878.652216082863!2d72.86502230392603!3d21.205540137811386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f7550821b4f%3A0x49a1044dd9ca098e!2sPunagam%2C%20Varachha%2C%20Surat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1712055572208!5m2!1sen!2sin" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='map'></iframe>
             </div>
           </div>
         </div>
