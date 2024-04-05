@@ -38,16 +38,30 @@ body {
 
 .scroll-up-btn {
   position: fixed;
-    bottom: 40px;
-    right: 20px;
-    background: blue;
-    font-size: 1.5rem;
-    cursor: pointer;
-    width: 3rem;
-    height: 3rem;
-    text-align: center;
-    padding: 0.5rem;
-    border-radius: 50%;
+  bottom: 40px;
+  right: 8px;
+  background: blue;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.scroll-up-btn i {
+  animation: moveUpDown 0.7s infinite alternate-reverse;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0.3rem);
+  }
+
+  100% {
+    transform: translateY(-0.3rem);
+  }
 }
 
 @media screen and (max-width: 970px) {
@@ -67,5 +81,24 @@ body {
   .fa-circle-up {
     font-size: 1.5rem;
     padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .scroll-up-btn {
+    font-size: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.3rem;
+  }
+
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0.1rem);
+    }
+  
+    100% {
+      transform: translateY(-0.1rem);
+    }
   }
 }

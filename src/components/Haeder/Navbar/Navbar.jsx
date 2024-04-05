@@ -16,13 +16,13 @@ const Navbar = () => {
               to="Home"
               spy={true}
               smooth={true}
-              offset={-10}
+              offset={-100}
               duration={500}>Home</Link></li>
             <li className="list-item"> <Link activeClass="active"
               to="Skills"
               spy={true}
               smooth={true}
-              offset={-80}
+              offset={0}
               duration={500}>Skills</Link></li>
             <li className="list-item"> <Link activeClass="active"
               to="Projects"
@@ -58,25 +58,25 @@ const Navbar = () => {
             to="Home"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-150}
             duration={500}>Home</Link></li>
           <li className="list-item"> <Link activeClass="active"
             to="Skills"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={0}
             duration={500}>Skills</Link></li>
           <li className="list-item"> <Link activeClass="active"
             to="Projects"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-30}
             duration={500}>Projects</Link></li>
           <li className="list-item"> <Link activeClass="active"
             to="About"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-30}
             duration={500}>About</Link></li>
         </ul>
         <Link activeClass="active"
