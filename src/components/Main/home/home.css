@@ -8,6 +8,7 @@
   width: 50%;
   padding-left: 10rem;
   height: 70vh;
+  animation: slideInFromLeft 1s ease-out;
 }
 
 .info-contain {
@@ -16,6 +17,7 @@
   gap: 10px;
   flex-direction: column;
   justify-content: center;
+  animation: slideInFromRight 1s ease-out;
 }
 
 .orignalName {
@@ -38,6 +40,27 @@
 
 .cv a {
   color: black;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 

@@ -142,3 +142,14 @@
     font-size: 2rem;
   }
 }
+
+@media screen and (max-width:550px) {
+  #contact {
+    width: 100%;
+    padding: 0.6rem;
+  }
+
+  .details iframe {
+    width: 100%;
+  }
+}

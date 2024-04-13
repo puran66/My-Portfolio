@@ -134,3 +134,10 @@
     display: none;
   }
 }
+
+
+@media screen and (max-width: 550px) {
+  .nav-logo {
+    width: 10rem
+  }
+}
